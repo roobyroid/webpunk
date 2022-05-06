@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Название сайта - описание">
+
+<!-- <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff"> -->
+
+<link rel="preload" href="fonts/Whitney/WhitneyBook.woff2" as="font" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/style.min.css">
+
+  <title>Личный кабинет</title>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header animate__animated wow animate__fadeInUp" data-wow-duration="1s">
+      <div class="container">
+        <div class="header__logo logo">Клуб болельщиков</div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#" data-modal="rules">ПРАВИЛА</a></li>
+            <li><a href="#">ТРАНСЛЯЦИИ</a></li>
+            <li><a href="#">ВЫЙТИ</a></li>
+          </ul>
+        </nav>
+        <button class="header__burger"><span></span></button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero hero--acount hero--acount2">
+        <div class="container">
+          <div class="hero__wrap">
+            <h2 class="title animate__animated wow animate__fadeInUp" data-wow-delay=".5s">ВЫ СТАЛИ<br> УЧАСТНИКОМ</h2>
+            <p class="subtitle animate__animated wow animate__fadeInUp" data-wow-delay=".6s">ЗАКРЫТОГО КЛУБА БОЛЕЛЬЩИКОВ
+            </p>
+            <p class="hero__info animate__animated wow animate__fadeInUp" data-wow-delay=".7s">воспользуйтесь
+              сертификатом с инструкцией<br>
+              для получения бонусов</p>
+            <a class="hero__btn btn animate__animated wow animate__fadeInUp" data-wow-delay=".8s" href="#">Скачать
+              сертификат</a>
+          </div>
+          <div class="hero__img-beer animate__animated wow animate__fadeInRight" data-wow-delay=".9s">
+            <img src="img/page/beer-2.png" alt="напиток">
+          </div>
+        </div>
+      </section>
+
+      <section class="snacks snacks--border">
+        <div class="container">
+          <div class="snacks__wrap snacks__wrap--right animate__animated wow animate__fadeInUp">
+            <h2 class="title">БОНУСЫ ЗА ЗАКУСКИ</h2>
+            <p class="subtitle">ДЛЯ ЧЛЕНОВ КЛУБА БОЛЕЛЬЩИКОВ</p>
+            <p class="snacks__info">Закажи <span>*специальный клубный WINSET</span><br> вкуснейших закусок, и получи
+              карту<br> с
+              промокодом,
+              для получения бонусов</p>
+            <a class="snacks__btn btn" href="#" data-modal="rules">Правила акции</a>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/page/snacks-2.jpg" type="image/jpeg" media="(min-width: 575px)">
+          <source srcset="img/page/snacks-mob.jpg" type="image/jpeg" media="(max-width: 575px)">
+          <img class="snacks__img" src="img/page/snacks-2.jpg" alt="напиток">
+        </picture>
+      </section>
+
+      <section class="drink drink--reverse">
+        <img class="drink__alc animate__animated wow animate__fadeInUp" data-wow-delay=".6s" src="img/svg/info.svg"
+          alt="info" width="143" height="150">
+        <div class="container">
+          <div class="drink__wrap animate__animated wow animate__fadeInUp">
+            <h2 class="title">БОНУСЫ ЗА НАПИТОК</h2>
+            <p class="subtitle">ДЛЯ ЧЛЕНОВ КЛУБА БОЛЕЛЬЩИКОВ</p>
+            <p class="drink__info">закажи *любимый крафт в клубном баре и получи специальный костер, а также карту с<br>
+              промокодом, для получения бонусов</p>
+            <a class="drink__btn btn" href="#" data-modal="rules">Правила акции</a>
+          </div>
+        </div>
+        <picture>
+          <source srcset="img/page/beer.jpg" type="image/jpeg" media="(min-width: 575px)">
+          <source srcset="img/page/beer-mob.jpg" type="image/jpeg" media="(max-width: 575px)">
+          <img class="drink__img animate__animated wow animate__fadeInRight" data-wow-delay=".5s"
+            src="img/page/beer.jpg" alt="напиток">
+        </picture>
+      </section>
+
+      <section class="games">
+        <div class="container">
+          <h2 class="title animate__animated wow animate__fadeInUp">БЛИЖАЙШИЕ ТРАНСЛЯЦИИ</h2>
+          <div class="games__slider animate__animated wow animate__fadeInUp" data-wow-delay=".5s">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-1.png" alt="club" width="104" height="104">
+                      <span>:</span>
+                      <img src="img/page/club-2.png" alt="club" width="110" height="110">
+                    </div>
+                    <p class="games__item-date">30 апреля,15:00</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-3.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-4.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,17:15</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-5.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-6.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,19:30</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-7.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-8.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,22:00</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-1.png" alt="club" width="104" height="104">
+                      <span>:</span>
+                      <img src="img/page/club-2.png" alt="club" width="110" height="110">
+                    </div>
+                    <p class="games__item-date">30 апреля,15:00</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-3.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-4.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,17:15</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-5.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-6.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,19:30</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="games__item">
+                    <div class="games__item-wrap">
+                      <img src="img/page/club-7.png" alt="club" width="120" height="120">
+                      <span>:</span>
+                      <img src="img/page/club-8.png" alt="club" width="120" height="120">
+                    </div>
+                    <p class="games__item-date">30 апреля,22:00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="games__slider-btn games__slider-prev">
+              <svg>
+                <use xlink:href="img/sprite_auto.svg#arrow-left"></use>
+              </svg>
+            </button>
+            <button class="games__slider-btn games__slider-next">
+              <svg>
+                <use xlink:href="img/sprite_auto.svg#arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="raffle">
+        <div class="container">
+          <p class="raffle__overhead animate__animated wow animate__fadeInUp">ЕЖЕМЕСЯЧНЫЙ АПРЕЛЬ</p>
+          <h2 class="title animate__animated wow animate__fadeInUp" data-wow-delay=".5s">РОЗЫГРЫШ ПОДАРКОВ</h2>
+          <p class="subtitle animate__animated wow animate__fadeInUp" data-wow-delay=".6s">ДЛЯ ЧЛЕНОВ КЛУБА БОЛЕЛЬЩИКОВ
+          </p>
+          <p class="raffle__info animate__animated wow animate__fadeInUp" data-wow-delay=".7s">розыгрыш призов среди
+            всех участников клуба,<br> поучавствовавших хотя бы в одной
+            акции,<br>
+            зарегистрированых в клубе</p>
+          <div class="raffle__wrap animate__animated wow animate__fadeInUp" data-wow-delay=".8s">
+            <div class="raffle__item">
+              <img src="img/page/circle.png" alt="круг" width="298" height="298">
+              <p class="raffle__item-name">Спортивная бутылка<br>
+                для воды (пластик)</p>
+            </div>
+            <div class="raffle__item">
+              <img src="img/page/circle.png" alt="круг" width="298" height="298">
+              <p class="raffle__item-name">Термокружка<br>
+                с гравировкой</p>
+            </div>
+            <div class="raffle__item">
+              <img src="img/page/circle.png" alt="круг" width="298" height="298">
+              <p class="raffle__item-name">Внешний аккумулятор<br>
+                с подсветкой на 5000 mAh</p>
+            </div>
+          </div>
+
+          <div class="raffle__btns animate__animated wow animate__fadeInUp">
+            <a class="raffle__btn btn" href="#" data-modal="rules">Правила участия</a>
+            <a class="raffle__btn raffle__btn--transparent btn" href="#">Победители марта</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <div class="container">
+          <h2 class="title animate__animated wow animate__fadeInUp">КАРТА БАРОВ КЛУБА</h2>
+        </div>
+        <picture>
+          <source srcset="img/page/map.jpg" type="image/jpeg" media="(min-width: 768px)">
+          <source srcset="img/page/map-mob.jpg" type="image/jpeg" media="(max-width: 768px)">
+          <img class="map__bg animate__animated wow animate__fadeInUp" data-wow-delay=".5s" src="img/page/map.jpg"
+            alt="bg">
+        </picture>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo logo">Клуб болельщиков</div>
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="#" data-modal="rules">ПРАВИЛА</a></li>
+            <li><a href="#">ТРАНСЛЯЦИИ</a></li>
+            <li><a href="#">ВЫЙТИ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <div
+  class="modal modal--preload modal--rules    ">
+  <div class="modal__wrapper">
+    <div class="modal__overlay"></div>
+    <div class="modal__content">
+
+      <div class="rules">
+  <h2 class="rules__title title">ПРАВИЛА АКЦИИ</h2>
+  <div class="rules__info" data-simplebar>
+    <p>«Дарим призы за получение зарплаты на карту «Мир» (далее – «Правила»)
+      Настоящие Правила определяют порядок, место и сроки проведения акции, условия участия
+      в ней, размер призового фонда акции, сроки, место и порядок получения Призов.
+      1 Общая информация</p>
+    <p>1.1.
+      Акция «Дарим призы за получение зарплаты на карту «Мир» (далее – «Акция») направлена
+      на увеличение уровня лояльности и стимулирование безналичных платежей клиентов ПАО
+      Сбербанк – держателей банковских карт платежной системы «Мир», указанных в настоящих
+      Правилах, в торгово-сервисных предприятиях.
+      1.2.
+      Информация об Акции распространяется Банком среди клиентов Банка, давших свое
+      согласие на получение подобных рассылок от Банка, посредством рассылки Банком смс-сообщений,
+      push-уведомлений и/или электронных писем с анонсированием Акции в период с 18.10.2021 по
+      18.12.2021 включительно.
+      1.3.
+      Источником информации о полных условиях Акции, об Организаторах Акции, о правилах
+      и сроках проведения Акции, о количестве Призов, сроках, месте и порядке их получения является
+      промо-страница Акции, доступная участникам Акции на интернет-сайте www.sberbank.ru (далее и
+      ранее – «Сайт»), ссылку на которую Участники Акции получают посредством смс-рассылки, push-
+      уведомлений и/или электронного письма от Банка.
+      1.4.
+      В случае приостановления или досрочного прекращения проведения акции Банк акции
+      обязан уведомить об этом действующих и потенциальных участников способами, которыми
+      информация об акции была доведена до участников Акции.
+      2 Термины и определения
+    </p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+    <p>
+      Для целей настоящих Правил Акции используются следующие термины и определения:
+      Банк – ПАО Сбербанк.
+      Участник Акции – Держатель Карты, отвечающий требованиям Акции, указанным в п. 5.1
+      настоящих Правил, и выполнивший условия участия в Акции.
+      Приз 1 уровня – денежные средства, подлежащие зачислению на счет мобильного телефона
+      Участника в размере и в порядке, которые предусмотрены настоящими Правилами.
+      Приз 2 уровня - денежные средства в размере 25 000 (Двадцать пять тысяч) рублей 00 копеек после
+      удержания и уплаты налога на доходы физического лица в соответствии с п. 2.6 настоящих Правил,
+      перечисляемые Участнику Акции, признанному Победителем на Карту «Мир» Банка.
+      Главный приз - сертификат holodilnik.ru номиналом 50 000 (Пятьдесят тысяч) рублей 00 копеек
+      (имущественная часть приза), предоставляемый Участнику Акции, признанному Победителем в
+      порядке, определенном настоящими Правилами согласно разделу 8 настоящих Правил.
+      Приз/Призы – Приз 1 уровня, Приз 2 уровня, Главный приз при одновременном упоминании,
+      предоставляемые Участнику Акции, признанному Победителем в порядке, определенном
+      настоящими Правилами (далее – «Приз/ Призы») согласно разделу 8 настоящих Правил.
+      Победитель – Участник Акции, выполнивший условия Акции и признанный Победителем в
+      соответствии с настоящими Правилами.
+      МСС-код (Merchant Category Code) – код категории ТСП – четырехзначный цифровой код,
+      присвоенный ТСП</p>
+  </div>
+</div>
+
+
+      <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап">
+
+      </button>
+
+    </div>
+  </div>
+</div>
+
+  <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
